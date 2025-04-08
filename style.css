@@ -1,0 +1,111 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    
+    background-color: #23eef5; /* Ensures a clean background */
+    color: black; /* Ensures readable text */
+    line-height: 1.6;
+    padding: 20px;
+
+
+}
+.blur-effect {
+    filter: blur(0px); /* No blur */
+}
+
+
+/* Container for all content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #167ef5;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #195dee;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 15px;
+}
+/* Projects Section */
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project-item {
+    background: #fff;
+    padding: 15px;
+    border-left: 5px solid #4CAF50; /* Green left border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.02);
+}
+/* GitHub Link */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Centering the Back Button */
+.back-button {
+    display: block;
+    width: 200px; /* Adjust button width */
+    margin: 20px auto; /* Auto centers horizontally */
+    padding: 12px;
+    text-align: center;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background: #45a049;
+}
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.back-button:hover {
+    background: #45a049;
+}
